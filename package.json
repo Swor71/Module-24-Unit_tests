@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha index.test.js",
-    "watch": "mocha -w -b index.test.js"
+    "watch_total": "mocha -w -b ./skiJumping/calculateTotalPoints.test.js",
+    "watch_style": "mocha -w -b ./skiJumping/calculateStylePoints.test.js",
+    "watch_distance": "mocha -w -b ./skiJumping/calculateDistancePoints.test.js"
   },
   "keywords": [],
   "author": "",
