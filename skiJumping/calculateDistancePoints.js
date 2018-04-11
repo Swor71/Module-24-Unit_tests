@@ -13,6 +13,7 @@ const calculateDistancePoints = (distance, hillSize, kPoint) => {
         return result = basePoints - ((kPoint - distance) * 2);
       }
       break;
+
     case 'large':
       basePoints = 60;
 
@@ -22,6 +23,7 @@ const calculateDistancePoints = (distance, hillSize, kPoint) => {
         return result = basePoints - ((kPoint - distance) * 1.8);
       }
       break;
+      
     case 'skiFlying':
       basePoints = 120;
       

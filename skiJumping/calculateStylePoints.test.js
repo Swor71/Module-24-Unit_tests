@@ -26,5 +26,13 @@ describe('calculateStylePoints' , () => {
 
             assert.equal(actual, expected);
         });
+
+        it('should return value without max and min note, same values', () => {
+            const actual = calculateStylePoints([16, 16, 16, 16, 16]);
+
+            const expected = 48;
+
+            assert.equal(actual, expected);
+        });
     });
 });
